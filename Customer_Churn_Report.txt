@@ -1,0 +1,56 @@
+# Customer Churn Analysis Report
+
+## Objective
+
+To analyze customer churn behavior and identify key factors affecting customer retention.
+
+## Dataset
+
+Telco Customer Churn Dataset
+
+## Tools Used
+
+* Python
+* Pandas
+* Matplotlib
+* Power BI
+
+## Dataset Overview
+
+* Total Customers: 7043
+* Total Columns: 21
+* Churned Customers: 1869
+* Churn Rate: 26.5%
+
+## Key Findings
+
+### Gender vs Churn
+
+Gender has minimal impact on customer churn. Male and female customers show similar churn patterns.
+
+### Contract Type vs Churn
+
+Customers with Month-to-Month contracts have the highest churn rate. Customers with One-Year and Two-Year contracts are more likely to stay.
+
+### Internet Service vs Churn
+
+Fiber Optic customers exhibit the highest churn compared to DSL and customers without internet service.
+
+### Payment Method vs Churn
+
+Customers using Electronic Check have significantly higher churn rates than customers using automatic payment methods.
+
+### Tenure Analysis
+
+Customers who churn have an average tenure of about 18 months, while retained customers stay for about 38 months.
+
+## Recommendations
+
+1. Encourage customers to switch to long-term contracts.
+2. Improve retention strategies for Fiber Optic customers.
+3. Promote automatic payment methods.
+4. Focus on retaining new customers during their first two years.
+
+## Conclusion
+
+Customer churn is strongly influenced by contract type, internet service, payment method, and customer tenure. Targeted retention strategies can help reduce churn and improve customer loyalty.
